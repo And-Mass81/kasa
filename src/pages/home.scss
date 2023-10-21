@@ -1,0 +1,45 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heroHome{
+    
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+    url("/img/hero Home.png");
+    max-width: 1240px;
+    height: 223px;
+    margin: 0 auto 50px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h1{
+        font-weight: 500;
+    }
+}
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1240px;
+    margin: 0 auto 50px auto;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-left: 0;
+    overflow: hidden;
+    li{
+      width: 340px;
+      list-style: none;
+      border: 10px;
+    }
+}
+
