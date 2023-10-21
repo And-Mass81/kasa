@@ -12,7 +12,7 @@ const Header = () => {
         <header className='mainHeader'>
             
             <nav className='mainNavegation'>
-               <img src="img/LOGOKSA.png"/>
+               <img src="./img/LOGOKSA.png"/>
                 <ul>
                     <li><Link to="/home">Accueil</Link></li>
                     <li><Link to="/apropos">A Propos</Link></li>
