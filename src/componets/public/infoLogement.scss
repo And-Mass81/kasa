@@ -1,0 +1,143 @@
+.mainLogementWrap{
+    margin: 0 auto;
+    max-width: 1228px;
+    padding: 5px;
+}
+
+.LogeInfoWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    
+}
+
+.titleLogeWrap{
+    display: flex;
+    color: #FF6060;
+    h1{
+      font-size: 36px;  
+      font-weight: 500;
+      margin: 0;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 500;  
+      margin: 0;
+      text-align: start;
+    }
+}
+
+.imgTexWrap{
+    display: flex;
+    align-items: center;
+    color: #FF6060;
+    gap: 5px;
+    margin-bottom: 5px;
+    padding-right: 8px;
+    img{
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+      } 
+     
+}
+
+
+.fa-star{
+    color: #FF6060;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.starGrey{
+    color: #E3E3E3;
+}
+
+.droptextWrap{
+ display: flex; 
+ flex-wrap: wrap;
+ gap: 10px; 
+ justify-content: space-between; 
+
+}
+
+.singleDroptext{
+    width: 49%;
+}
+
+.tagList{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    .singleTag{
+     background-color: #FF6060;  
+     border-radius: 20px; 
+     color: white;
+     padding: 5px 10px 5px 10px;
+     font-size: 14px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) { 
+
+    .mainLogementWrap{
+       padding: 15px;
+        
+    }
+    .singleDroptext{
+        width: 100%;
+        padding: 0px;
+        margin-top: 0;
+    }
+
+
+    .droptextWrap{
+        gap: 0px; 
+        
+       }
+
+       .titleLogeWrap h1{
+          font-size: 18px;  
+          text-align: start;
+        }
+
+        .titleLogeWrap p{
+            font-size: 14px;
+        }
+
+        .imgTexWrap img{
+           height: 32px;  
+           width: 32px;
+
+
+        }
+
+        .LogeInfoWrap{
+         flex-wrap: wrap;
+        }   
+
+        .userWrap{
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            
+        }
+
+        .tagList{
+          
+            display: flex;
+            flex-wrap: wrap;
+     
+        }
+    
+
+
+}

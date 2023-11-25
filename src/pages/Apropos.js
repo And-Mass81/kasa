@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion from '../componets/public/Accordion';
+import Droptext from '../componets/public/Droptext';
 import './apropos.scss'
 
 const Apropos = () => {
@@ -8,7 +8,7 @@ const Apropos = () => {
             <div className='aproHero'>
             </div>
             <div>
-            <Accordion/>
+            <Droptext/>
             </div>
         </main>
 

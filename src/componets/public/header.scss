@@ -4,13 +4,14 @@ nav {
       display: flex;
       justify-content: space-between;
       max-width: 1240px;
-      margin: 30px auto ;
+      margin: 30px auto;
       align-items: center;
 
       ul {
             display: flex;
             justify-content: space-between;
             list-style-type: none;
+            padding: 0;
       }
 
       li {
@@ -32,6 +33,29 @@ a:hover {
 }
 
 nav img {
-      max-width: 210.32px;
+      width: 210.32px;
       margin: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+
+      nav ul {
+            align-items: center;
+
+            a {
+                  font-size: 17px;
+            }
+
+      }
+
+
+
+      nav img {
+            width: 145px;
+            margin: 10px;
+      }
+
 }

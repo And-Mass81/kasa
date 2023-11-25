@@ -5,7 +5,7 @@ import './footer.scss'
 const Footer = () => {
     return (
         <footer>
-           <img src="./img/LOGOFOOT.png"/> 
+           <img src="/img/LOGOFOOT.png" alt='logo kasa'/> 
            <p>© 2020 Kasa. All rights reserved</p>
         </footer>
     );
