@@ -21,8 +21,9 @@ import "./slider.scss"
     return (
 
         <div className='slider'>
-            <i className="fa-solid fa-chevron-left fa-2x" onClick={prevSlide}></i>
-            <i className="fa-solid fa-chevron-right fa-2x" onClick={nextSlide}></i>
+            {picsArray > 1 && <i className="fa-solid fa-chevron-left fa-2x" onClick={prevSlide}></i>}
+            {picsArray > 1 && <i className="fa-solid fa-chevron-right fa-2x" onClick={nextSlide}></i>}
+
             {slideData.map((item, idx) => {
                 return (
 
@@ -33,7 +34,7 @@ import "./slider.scss"
             
             {slideData.map((item, idx) => {
                 return (
-                  <span className='indicatorIndex'key={idx} >{slide +1} / {slideData.length}</span>
+                 picsArray > 1 && <span className='indicatorIndex'key={idx} >{slide +1} / {slideData.length}</span>
  
                 )
             })}
