@@ -69,3 +69,28 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .Gallery {
+        ul {
+            background-color: #ffffff;
+            padding-top: 25px;
+        }
+    }
+
+    .heroHome {
+         
+      margin: 15px;
+      height: 111px;
+      
+        h1 {
+            font-size: 24px;
+            width: 217px;
+            text-align: left;
+            margin-right: 80px;
+        }
+    }
+
+}
