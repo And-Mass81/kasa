@@ -34,6 +34,7 @@ import "./slider.scss"
             
             {slideData.map((item, idx) => {
                 return (
+                  // (if this part is true) && (this part will execute), truthy statement && function  
                  picsArray > 1 && <span className='indicatorIndex'key={idx} >{slide +1} / {slideData.length}</span>
  
                 )

@@ -39,7 +39,7 @@ const Logement = () => {
     }
 
     return (
-        // (if this part is true) && (this part will execute), truthy statement && function
+
        
         <div>
             {<Slider slideData={singleLogement.pictures} /> }
