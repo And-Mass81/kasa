@@ -1,6 +1,7 @@
-.errorWrap{
+.errorWrap {
     margin-bottom: 150px;
-    .bigNumber{
+
+    .bigNumber {
         font-size: 200px;
         font-weight: 600;
         padding: 0;
@@ -8,18 +9,26 @@
 
     }
 
-    p{
-        color:#FF6060;
+    p {
+        color: #FF6060;
         font-size: 36px;
         margin-bottom: 100px;
     }
 
-    a{
-        
-        color:#FF6060; 
+    a {
+
+        color: #FF6060;
         font-weight: 500;
 
     }
 
 }
 
+@media screen and (max-width: 600px) {
+    .errorWrap {
+        .bigNumber {
+            font-size: 150px;
+        }
+
+    }
+}

@@ -11,7 +11,9 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+
+
+//Web Vitals are a set of useful metrics that aim to capture the user experience of a web page. 
+//In Create React App, a third-party library is used to measure these metric
 reportWebVitals();
